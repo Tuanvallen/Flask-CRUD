@@ -44,12 +44,11 @@ def ubah_data(nim):
     cur.close()
     return render_template('ubah.html', hasil=res)
 
-# Route untuk memproses ubah data
 @app.route('/proses_ubah', methods=['POST'])
 def proses_ubah():
     nim_ori = request.form['nim_ori']
     nim = request.form['nim']
-    nama = request.form['nama']  # Diubah dari request.form['nim']
+    nama = request.form['nama']  
     asal = request.form['asal']
     
     try:
