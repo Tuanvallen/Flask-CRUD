@@ -1,6 +1,4 @@
 # Flask-CRUD
-
-# Flask-CRUD
 Implementasi Create, Read, Update, Delete menggunakan Flask dan MySQL
 
 ## Prasyarat
