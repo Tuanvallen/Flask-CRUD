@@ -249,7 +249,7 @@ static/
 <!-- Images -->
 <img src="{{ url_for('static', filename='img/logo.png') }}">
 
-<!-- Fonts -->
+<!-- Fonts -->(saya tidak menggunakanya karena magar)
 <link rel="stylesheet" href="{{ url_for('static', filename='fonts/font.css') }}">
 ```
 
